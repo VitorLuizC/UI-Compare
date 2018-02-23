@@ -1,0 +1,9 @@
+# Node.js modules folder.
+node_modules/
+
+# Log files.
+*.log
+*.log.*
+
+# NPM lockfile, since we're using Yarn.
+package-lock.json

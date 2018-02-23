@@ -1,0 +1,7 @@
+# Handle all files as text when it's possible.
+# Enforce unix line-endings.
+* text=auto eol=lf
+
+# Ignore Yarn's lockfiles.
+# Since version 1.0 Yarn automerges git diffs.
+yarn.lock -diff
